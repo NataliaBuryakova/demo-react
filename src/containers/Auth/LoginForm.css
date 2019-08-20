@@ -1,0 +1,15 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+.content {
+    width: 100%;
+    /*min-width: 1000px;*/
+    font-family: 'Lora', serif;
+}
+
+.LoginForm{
+display: flex;
+    width: 100%;
+}
+.LoginForm label{
+    margin: 0 15px 0 0;
+}

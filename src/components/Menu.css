@@ -1,0 +1,42 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {margin:0;}
+h2 {
+    font-family: monospace;
+    color: #606060;
+}
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    transition: .5s linear;
+}
+i {
+    margin-right: 10px;
+}
+nav {
+    display: block;
+    margin: 0 auto 30px;
+}
+.menu ul {
+    padding: 0;
+    background: #E4EFD1;
+}
+.menu li {
+    display: inline-block;
+}
+.menu a {
+    padding: 1em;
+    display: block;
+    color: #74924C;
+    border-right: 1px solid #BAD78B;
+    background: rgba(177, 215, 121, 0.3);
+}
+.menu a:hover {background: #BAD78B}
+.menu .active { /*для активных ссылок*/
+    background: #BAD78B
+}
